@@ -1,0 +1,130 @@
+
+============================================================
+DATASET: digits
+============================================================
+  ntree=1 ... acc=0.7615  prec=0.7729  rec=0.7611  f1=0.7615
+  ntree=5 ... acc=0.9081  prec=0.9134  rec=0.9077  f1=0.9069
+  ntree=10 ... acc=0.9520  prec=0.9545  rec=0.9519  f1=0.9519
+  ntree=20 ... acc=0.9733  prec=0.9747  rec=0.9732  f1=0.9731
+  ntree=30 ... acc=0.9712  prec=0.9730  rec=0.9710  f1=0.9710
+  ntree=40 ... acc=0.9777  prec=0.9787  rec=0.9776  f1=0.9776
+  ntree=50 ... acc=0.9771  prec=0.9781  rec=0.9770  f1=0.9769
+
+RESULTS (digits):
+ ntree |  accuracy | precision |  recall |      f1
+--------------------------------------------------
+     1 |    0.7615 |    0.7729 |  0.7611 |  0.7615
+     5 |    0.9081 |    0.9134 |  0.9077 |  0.9069
+    10 |    0.9520 |    0.9545 |  0.9519 |  0.9519
+    20 |    0.9733 |    0.9747 |  0.9732 |  0.9731
+    30 |    0.9712 |    0.9730 |  0.9710 |  0.9710
+    40 |    0.9777 |    0.9787 |  0.9776 |  0.9776
+    50 |    0.9771 |    0.9781 |  0.9770 |  0.9769
+  Saved graphs/digits_rf_accuracy.png
+  Saved graphs/digits_rf_precision.png
+  Saved graphs/digits_rf_recall.png
+  Saved graphs/digits_rf_f1.png
+
+============================================================
+DATASET: parkinsons
+============================================================
+  ntree=1 ... acc=0.8601  prec=0.8486  rec=0.7877  f1=0.8026
+  ntree=5 ... acc=0.8917  prec=0.8711  rec=0.8530  f1=0.8538
+  ntree=10 ... acc=0.9228  prec=0.9041  rec=0.8912  f1=0.8922
+  ntree=20 ... acc=0.9170  prec=0.9083  rec=0.8743  f1=0.8839
+  ntree=30 ... acc=0.9387  prec=0.9487  rec=0.8906  f1=0.9071
+  ntree=40 ... acc=0.9281  prec=0.9394  rec=0.8770  f1=0.8949
+  ntree=50 ... acc=0.9286  prec=0.9199  rec=0.8837  f1=0.8916
+
+RESULTS (parkinsons):
+ ntree |  accuracy | precision |  recall |      f1
+--------------------------------------------------
+     1 |    0.8601 |    0.8486 |  0.7877 |  0.8026
+     5 |    0.8917 |    0.8711 |  0.8530 |  0.8538
+    10 |    0.9228 |    0.9041 |  0.8912 |  0.8922
+    20 |    0.9170 |    0.9083 |  0.8743 |  0.8839
+    30 |    0.9387 |    0.9487 |  0.8906 |  0.9071
+    40 |    0.9281 |    0.9394 |  0.8770 |  0.8949
+    50 |    0.9286 |    0.9199 |  0.8837 |  0.8916
+  Saved graphs/parkinsons_rf_accuracy.png
+  Saved graphs/parkinsons_rf_precision.png
+  Saved graphs/parkinsons_rf_recall.png
+  Saved graphs/parkinsons_rf_f1.png
+
+============================================================
+DATASET: rice
+============================================================
+  ntree=1 ... acc=0.9147  prec=0.9142  rec=0.9124  f1=0.9127
+  ntree=5 ... acc=0.9247  prec=0.9234  rec=0.9235  f1=0.9231
+  ntree=10 ... acc=0.9213  prec=0.9195  rec=0.9204  f1=0.9197
+  ntree=20 ... acc=0.9249  prec=0.9230  rec=0.9243  f1=0.9235
+  ntree=30 ... acc=0.9270  prec=0.9254  rec=0.9259  f1=0.9255
+  ntree=40 ... acc=0.9268  prec=0.9253  rec=0.9257  f1=0.9253
+  ntree=50 ... acc=0.9278  prec=0.9263  rec=0.9269  f1=0.9264
+
+RESULTS (rice):
+ ntree |  accuracy | precision |  recall |      f1
+--------------------------------------------------
+     1 |    0.9147 |    0.9142 |  0.9124 |  0.9127
+     5 |    0.9247 |    0.9234 |  0.9235 |  0.9231
+    10 |    0.9213 |    0.9195 |  0.9204 |  0.9197
+    20 |    0.9249 |    0.9230 |  0.9243 |  0.9235
+    30 |    0.9270 |    0.9254 |  0.9259 |  0.9255
+    40 |    0.9268 |    0.9253 |  0.9257 |  0.9253
+    50 |    0.9278 |    0.9263 |  0.9269 |  0.9264
+  Saved graphs/rice_rf_accuracy.png
+  Saved graphs/rice_rf_precision.png
+  Saved graphs/rice_rf_recall.png
+  Saved graphs/rice_rf_f1.png
+
+============================================================
+DATASET: credit
+============================================================
+  ntree=1 ... acc=0.8209  prec=0.8243  rec=0.8195  f1=0.8184
+  ntree=5 ... acc=0.8592  prec=0.8599  rec=0.8565  f1=0.8572
+  ntree=10 ... acc=0.8546  prec=0.8593  rec=0.8511  f1=0.8522
+  ntree=20 ... acc=0.8588  prec=0.8591  rec=0.8574  f1=0.8573
+  ntree=30 ... acc=0.8666  prec=0.8706  rec=0.8658  f1=0.8649
+  ntree=40 ... acc=0.8712  prec=0.8723  rec=0.8706  f1=0.8700
+  ntree=50 ... acc=0.8743  prec=0.8762  rec=0.8733  f1=0.8729
+
+RESULTS (credit):
+ ntree |  accuracy | precision |  recall |      f1
+--------------------------------------------------
+     1 |    0.8209 |    0.8243 |  0.8195 |  0.8184
+     5 |    0.8592 |    0.8599 |  0.8565 |  0.8572
+    10 |    0.8546 |    0.8593 |  0.8511 |  0.8522
+    20 |    0.8588 |    0.8591 |  0.8574 |  0.8573
+    30 |    0.8666 |    0.8706 |  0.8658 |  0.8649
+    40 |    0.8712 |    0.8723 |  0.8706 |  0.8700
+    50 |    0.8743 |    0.8762 |  0.8733 |  0.8729
+  Saved graphs/credit_rf_accuracy.png
+  Saved graphs/credit_rf_precision.png
+  Saved graphs/credit_rf_recall.png
+  Saved graphs/credit_rf_f1.png
+
+============================================================
+DATASET: student_dropout
+============================================================
+  ntree=1 ... acc=0.6277  prec=0.5616  rec=0.5599  f1=0.5601
+  ntree=5 ... acc=0.7061  prec=0.6301  rec=0.6225  f1=0.6210
+  ntree=10 ... acc=0.7371  prec=0.6641  rec=0.6387  f1=0.6399
+  ntree=20 ... acc=0.7534  prec=0.6892  rec=0.6468  f1=0.6490
+  ntree=30 ... acc=0.7620  prec=0.7144  rec=0.6587  f1=0.6634
+  ntree=40 ... acc=0.7656  prec=0.7237  rec=0.6574  f1=0.6609
+  ntree=50 ... acc=0.7645  prec=0.7234  rec=0.6573  f1=0.6624
+
+RESULTS (student_dropout):
+ ntree |  accuracy | precision |  recall |      f1
+--------------------------------------------------
+     1 |    0.6277 |    0.5616 |  0.5599 |  0.5601
+     5 |    0.7061 |    0.6301 |  0.6225 |  0.6210
+    10 |    0.7371 |    0.6641 |  0.6387 |  0.6399
+    20 |    0.7534 |    0.6892 |  0.6468 |  0.6490
+    30 |    0.7620 |    0.7144 |  0.6587 |  0.6634
+    40 |    0.7656 |    0.7237 |  0.6574 |  0.6609
+    50 |    0.7645 |    0.7234 |  0.6573 |  0.6624
+  Saved graphs/student_dropout_rf_accuracy.png
+  Saved graphs/student_dropout_rf_precision.png
+  Saved graphs/student_dropout_rf_recall.png
+  Saved graphs/student_dropout_rf_f1.png
