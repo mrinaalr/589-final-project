@@ -24,4 +24,4 @@ python rf.py
 python ensemble.py
 ```
 
-**Notebooks** — open `knn.ipynb` or `preprocess.ipynb` in Jupyter and run the cells.
+**Notebooks** — open `knn.ipynb` or `preprocess.ipynb` or `adaptive_knn.ipynb` in Jupyter and run the cells.
